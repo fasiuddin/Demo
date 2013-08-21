@@ -1,4 +1,6 @@
 Demo::Application.routes.draw do
+  resources :dells
+
   resources :users
 
   # The priority is based upon order of creation:
